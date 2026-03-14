@@ -3,7 +3,7 @@ let heading = document.querySelector('h3');
 
 btn.addEventListener("click", function(){
     
-    heading.innerHTML = generateColor();
+    heading.innerText = generateColor();
 
     let div = document.querySelector('div');
     div.style.backgroundColor = heading.innerText;
