@@ -1,11 +1,12 @@
 let btn = document.querySelector('button');
+let heading = document.querySelector('h3');
 
 btn.addEventListener("click", function(){
-    let heading = document.querySelector('h3')
+    
     heading.innerHTML = generateColor();
 
     let div = document.querySelector('div');
-    div.style.backgroundColor = generateColor();
+    div.style.backgroundColor = heading.innerText;
 })
 
 let generateColor = function(){
