@@ -5,6 +5,7 @@ btn.addEventListener("click", function(){
     
     heading.innerText = generateColor();
     let div = document.querySelector('div');
+    console.log(heading.innerText);
     div.style.backgroundColor = heading.innerText;
 })
 
